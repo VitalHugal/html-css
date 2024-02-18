@@ -1,0 +1,380 @@
+Pscicologia das cores
+
+- Cada cor tem uma emoção e combinado ela tem uma harmonia, 
+desenvolver site precisa disso;
+- Azul é cor com a menor taxa de rejeição;
+- A cor da tecnologia;
+- Tomar cuidado com site fundo preto e letra branca
+pois gera cansaço na visão (VAI NO PADRÃO).
+
+__________________________________________________________
+
+Cores com CSS3
+
+- Podemos simbolizar a representação das cores nas css3
+de diversar formas como por exemplo pelo nome,
+também hexadecimal;
+- No gimp podemos ver esses codigos em hexadecimal de 
+forma integra RGB - 00 de red 00 de gren ff de azul ou 
+seja 255 de azul no caso tudo;
+- NO vscode podemos clicar no quadrinho das cores e escolher
+pelo formato rgb e clicando na abinha ela muda para 
+hexadecimal, rgb, hsl etc...
+- também temos a transparencia das cores com o rgbA e
+hslA.
+
+__________________________________________________________
+
+Harmonia das cores
+
+- Circulo cromático - 12 tons principais 
+- Cores primarias: Amarelo, vermelho e azul;
+- Cores secundárias: Laranja, violeta e verde;
+- Cores terciária: Amarelo-esverdeado, amarelo alaranjado
+vermelho-alaranjado, veremelho-arroxeado, azul-arroxeado,
+azul-esverdeado;
+- Temperatura das cores: lado esquerdo cores frias e
+direito cores quentes;
+- Paleta de cores;
+- Se tiver logo, verificar cores primárias da logo;
+- Paleta de cores vai de 3 até 5;
+- Para definir uma paleta com contraste por pegar o 
+circulo cromatico e traçar uma linha de ponta a ponta;
+- Cores análogas, são cores que não tem constrates mas
+sim similariedade são as do lados;
+- Pode se trabalhar com cores análogas e complementares;
+- Cores análogas relacionadas você pega dois cores pula 
+a proxima e pega a seguinte;
+- Cores intecaladas quando vc pula uma pega a segunda
+pula novamnete e pega a terceira;
+- Cores triádicas pega um apula três e pega uma em seguida
+pula tres e pega outra;
+- Cores em quadrado pega uma pula dois e repita iso até
+completar um quadrado;
+- Cores tetrádicas escolha uma pegue a cor oposta e depois 
+faça isso com outra cor até forma um retângulo;
+- Cor Monocromia onde vc pega a cor e modifica a saturação
+e luminosidade consigo chegar em varias cores;
+
+__________________________________________________________
+
+Paletas de cores
+
+- Google > color.adobe.com
+- Podemos pegar qualquer arquivo e jogar no color.adobe
+e podemos criar varias cores e paletas para aquele logo;
+- Explorar conseguimos pegar paletas predefinidas e com
+formatos EX: CSS;
+- Google > Paletton.com - Consegue simular um site com as cores
+escolhidas e isso é muito legal para um preview;
+- Google > coolors.com - Muito bom para uma criação de paletas 
+de cores bem interativo onde conseguimos selecionar a cor
+que gostamos e depois ele vai unir cores para ela.
+
+_________________________________________________________
+
+Como capturar cores da tela ?
+
+- print screen da cor > GIMP > pegar o conta gota e tem a
+sua cor lá em hexadecimal;
+- Google > Chrome web store > Colorzilla > Engrenagem ou 
+peça de quebra cabeça, selecionar o conta gotas e ele
+mostrará para você o RGB da cor;
+
+_________________________________________________________
+
+Como criar um degradê em CSS ?
+
+-  <style>
+        *{/*Configurações globais das CSS*/
+            height: 100%;
+        }
+        body{
+            background-image: linear-gradient(to right, 
+#3149F1,#8D29C1,#CB2E75,#F44A39, #FE9E2E, #FFDF8A);
+        }
+    </style>
+_________________________________________________________
+
+Criando um exemplo real
+
+- Desenvolvemos o arquivo cor03.html com style caso queira 
+ver como fica, com ou sem estilo, você pode retirar o
+<link> criado dentro da tag <head> para notar tal defi-
+rença.
+
+__________________________________________________________
+
+Tipografia
+
+- Surgiu no século 15, na idade média quem produzia os li-
+vros eram os monges Copista;
+- Gutenberg um alemão que inventou a prensa mecanica de 
+tipos movéis, onde tinha diversas letras pequenas que você
+encaixava nessa prensa e quando abaixava ela ficava 
+"escrita" na folha, a automação da época;
+- Com isso foi desenvolvido a tipografia para gerar letras
+que ficasse cada vez melhor para um fácil entendimento;
+- Letras também emitem emoções assim como as cores.
+
+_________________________________________________________
+
+Famílias de fonte com CSS
+
+- CSS web safe font - site para te dizer todas as safes
+combinadas;
+- Colocar san-serif, serif ou monospace, faz com que o 
+computado entenda um grupo e coloque uma fonte que se en-
+quadre nesse padrão solicitado.
+
+_________________________________________________________
+
+Tamanho de fontes e medidas 
+
+- Recomendações W3C;
+
+- Medidas absolutas:
+  - cm, mm, in, px, pt, pc;
+
+- Meidas relativas:
+  - em, ex, rem, vw, vh, %;
+
+- Utilizar pixel e EM, isso é uma recomendação W3C, 16px
+equivale a um letra normal de um site e EM é o dobro de um pixel.
+
+_________________________________________________________
+
+Peso, Estilo e shorthand
+
+- Work Sans - font-weight = peso;
+- lighter, normal, bold, bolder;
+- font-style - italic ;
+- text-decoration - undeerline;
+- shorthand é quando vc simplifica um monte de configu
+rações de texto;
+- ordem para um shorthand é font style -> font weight ->
+Fonte size -> font family ->;
+- font: italic bolder 3em 'work sans, san-serif.
+
+_________________________________________________________
+
+Usando o google fonts
+
+- Repositório gratuito de fonts disponibilizados pelo 
+Google;
+- Dentro do Google font vc consegue importar ela depois de seleciona-lá, colocando ela na primeira linha do sty
+le, também não esqueça de copiar no nome da font esco
+lhida para colocar em como valor dentro do font-family;
+- Ter como um padrão até três tipos de fontes pois senão seu site tende a ficar muito confuso.
+
+_________________________________________________________
+
+Pseudo-classes em CSS ex21
+
+- são palavras que definem estados dentro do HTML
+- height altura
+- width largura
+- : significa pseudo-classe
+- div:hover{
+background-color -> serve para deixar uma interação na
+sua div 
+- div > p é como se a div tivesse um filho.
+- :visited é qual vc ja visitou um site e quer trocar
+aquela cor que fica meio azulada
+- :active é quando vc clica e ele troca de cor para 
+enfatizar que clicou
+___________________________________________________
+
+Pseudo-Elementos em CSS ex21
+
+- :visited é qual vc ja visitou um site e quer trocar
+aquela cor que fica meio azulada
+- :active é quando vc clica e ele troca de cor para 
+enfatizar que clicou
+
+-Pseudo-Elementos duas vezes dois pontos ::
+-a::after significado que depois do seu html aparecerá
+uma palavra
+-a::before para aparecer antes
+- consigo ajustar também os pseudo elementos com classe
+
+SELETORES PERSOLANIZADOS
+- # = id
+- . = classe
+- : pseudo-class
+- :: pseudo-element
+- > clildren
+______________________________________________________
+
+Modelo de Caixas: primeiros passos ex21
+
+- modelo de caixas 
+- aninhamento é qunado colocamos em forma de ninho tipo
+uma caixa dentro da outra
+- height -> altura
+- width -> largura
+- linha em voltar borda -> border
+- padding é preenchimento ou acochoamento
+- margin é o espaço externo do preenchimento
+- outline é um contorno ou traçado
+
+Temos dois tipos de caixa
+
+- box-level e inline-level
+- box-level pula para a linha de baixo e sempre ocupa
+a largura total da tela 
+- inline-level pula para o lado e depois que termina ele 
+continua o conteudo na mesma linha.
+
+box-level mais utilizado é a <div> , h1, p, nav, video,
+ etc...
+inline-level <span> , a, code, label, button, input,
+ select
+_______________________________________________________
+
+Modelo de Caixas na prática (pt.1) ex21
+
+- podemos estabeler tamanho dentro do nosso codígos 
+e brincar com ajuste dentro do devtools na parte do
+google inspecionar 
+-
+
+
+_______________________________________________________
+
+Modelo de Caixas na prática (Pt.2) ex21
+
+- MARGIN AUTO PARA DEIXAR A CAIXA NO MEIO CASO SEJA UMA 
+CAIXA
+
+- simplificar todos aqueles codigos de margin,border, padding 
+etc..
+- aprendemos box size, border, padding, margin e outline
+
+______________________________________________________
+
+Grouping Tags em HTML5 ex21
+
+- tags semnaticas ajuda na busca do site no navegador
+-header -> cabeçalho
+-main -> conteudo 
+-footer -> rodape
+-ajuda deixar seu site com cara de site não apenas titulos
+e paragrafos de forma jogada.
+
+______________________________________________________
+
+ Sombra nas Caixas ex21
+- box-shadow serve para criar sombra 
+- tem como criar pelo inspecionar 
+
+_______________________________________________________
+
+Caixas com vértices arredondados ex21
+
+- para o arredondamento usamos a tag border-radius
+também podemos utilizar sombra para caixas arredondadas
+- além disso podemos também utilizar parâmetros com 
+porcentagem 
+
+_______________________________________________________
+
+Bordas decoradas ex21
+
+-  border: 12px solid black;
+   padding: 10px;
+   border-image-source: url('bordar.png');
+   border-image-slice: 20;
+   border-image-repeat: repeat;
+
+-tem como colocar borda decorada mas é muito feio, mas
+dependendo de algum trabalho pode ser solicitado
+________________________________________________________
+
+Planejando a estrutura do seu site
+
+-mocflow
+
+_________________________________________________________
+
+ Variáveis em CSS
+
+- utilizar o :root para as cores do projeto auxilia
+você a conseguir desenvolver uma melhor formatação
+sem contar que caso o cliente solicite a troca da cor
+você troca em apenas um lugar.
+-* consigo também utilizar o asteristico como uma meio
+de colocra uma configuração global nos elementos assim
+facilitando muita coisa
+________________________________________________________
+
+Responsividade para sites
+
+-Para uma melhor responsividade com imagens é podemos
+trablhar de diversos modos, um deles é com minwidth e 
+maxwidth além de source media para acresentarmos uma img
+menor.
+
+________________________________________________________
+
+Responsividade na prática
+
+- baixar extensão windown resizer
+- com ela vc consegue verificar o tamanho da sua tela 
+toda vez e diminuir e depois aumentar ela mostrará o 
+tamanho.
+
+________________________________________________________
+
+Configurando o header e o menu do site
+
+-
+
+________________________________________________________
+
+Melhorando o formato do conteúdo
+
+- line-height é o tamanho da da linha no caso altura
+
+________________________________________________________
+
+Rodapé conteudo periférico e links 
+
+- list-style-type:'\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+- com essa linha de comando conseguimos acrescentar icone
+lista
+- ajustar a lista para dentro da caixa
+- colocar quantidade de coluna sem precisar de gambaiarra
+
+________________________________________________________
+
+Tornando nosso vídeo responsivo
+
+- para ajustar o vídeo que foi incorporado precisamos
+criar uma div para esse vídeo com isso podemos mexer
+no posicionamento do video 
+- uma div usada foi o só para o video e outra para o 
+video >frame 
+div.video {
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+_______________________________________________________
+
+Fim do módulo 2 - certificados liberados

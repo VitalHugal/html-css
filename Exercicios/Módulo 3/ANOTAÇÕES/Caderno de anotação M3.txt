@@ -1,0 +1,35 @@
+Oque vamos aprender nesse módulo 3 ?
+
+- Hospedar seu sites com git e github;
+- Configurando imagens de fundo;
+- Hospedando seu site gratuitamente;
+- tabelas em HTML;
+
+_________________________________________
+
+OQue é git e git hub ?
+
+- repositorio local/remoto;
+- git -> software gerenciador de versões;
+- github -> software de hospedagem de sites;
+
+______________________________________________
+
+Instalando git e github 
+
+- seu pc tem que ser 64bits;
+- instalar primeiro o git;
+- reiniciar após a instalação;
+- instalar github (caso apresente erro pode ser
+ pelo fatode seu pc ser 32bits);
+______________________________________________
+
+Criando conta no Github 
+
+- crie contas sempre com nomes reais;
+- sem apleidos ou nomes desagradaveis;
+
+______________________________________________
+
+Primeiro repositorio git e git hub 
+

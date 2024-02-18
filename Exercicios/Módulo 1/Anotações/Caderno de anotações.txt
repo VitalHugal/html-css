@@ -1,0 +1,207 @@
+AULA 7
+
+Como funcionam HTML e CSS ?
+
+- A HTML é refenciada assim por conta de ser a linguagem.
+- As CSS é refenciada assim por ser feminino e no plural
+sendo as folhas de estilos.
+
+- Não são efetivamente linguagens de programação.
+- Eu desenvolvo em HTML e CSS.
+
+HTML - Hyper Text Markup Language
+
+CSS - Cascading Style Sheets
+
+- HTML é uma linguagem focada em conteudo (frases, imagem,
+ video, tabela e etc..)
+
+- CSS são atrativos visuais é foco em desing (cores, som
+bras, tamanhos , posicionamento)
+
+***JavaScripts***
+***Interações***
+(menus, animações, popups, validações)
+
+CONTEUDO EM HTML
+
+exemplo título --- <h1> hjfghdgff </h1>
+exemplo de parágrafo <p> shaghjksg </p>
+
+<img src="foto.png" alt="exemplo de foto">
+
+
+ESTILO EM CSS
+
+h1{
+ font-family:Arial;
+ font-size:20pt;
+ color:blue;
+
+}
+
+ESTRTUTURA BASICA EM HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+	<meta charset=UTF-8>
+	<meta name="viewport"content="width=device-width,
+	initial-scale=1.0">
+	<title>Document</title>
+
+</head>
+<body>
+	<h1>Olá,Mundo!</h1>
+</body>
+
+</html>
+
+___________________________________________________________________________
+
+AULA 9
+
+SIMBOLOS E EMOJIS NO SEU SITE!
+
+Vamos adicionar alguns simbolos especiais: 
+ &reg;
+ &copy;
+ &trade;
+ &euro;
+ &pound;
+ &yen;
+ &cent;
+ &Delta;
+ &uarr;
+
+<!--SERVE PARA COMENTARIO-->
+
+para add emoji 
+
+gooogle > emojipedia > deposi escolher seu emoji
+
+copiar codigo que esta em hexadecimal ex: mãozinha 1596
+
+porem tem que por &#x eo valor do emoji 
+
+___________________________________________________________________________
+
+AULA 10
+
+IMAGENS
+
+direitos autorais existem !!!
+
+imagens > Ferramentas da barrinha 
+marcadas para reutilização com modificação
+
+unsplash site
+pexels site
+
+SOTWARE PARA FOTO
+
+gimp - instalar 
+
+
+__________________________________________________________________
+
+
+AULA 11
+
+-formato de imagens 
+
+-instalando o GIMP
+
+-formatos de arquivo para web geralmente é jpeg e png 
+(mas depende muito doque precisamos)
+
+- Tomar cuidado para não pegar uma imagem muito pesada 
+pois isso pode deixar seu site lento (tomar bastante cuidado)
+
+- Utilizar as ferramentas do google pois com ela você tem muitos criterios 
+de seleção
+
+
+_________________________________________________________________________
+
+AULA 12
+
+gimp
+
+-Redimensionar imagem ;
+-exportar imagem;
+
+Recomendado guardar foto original escolhida para um futuro redimensionamneto 
+ideal 
+
+Realizar a implementação de uma foto é simples porém é necessario ter atenção com o
+tamanho dela por isso o uso do gimp
+
+podemos pegar da internet atraves de uma url
+
+podemos pegar de outra pasta atraves de chamar a pasta eo arquivo.
+
+_______________________________________________________________________________________
+
+AULA 13
+
+ICONES DE FAVORITOS
+
+-icone que fica na parte superior da pagina ao lado do nome do documento
+
+-site para pegar icons
+
+-iconarquive
+- FAVICON.cc
+- FAVICON.io
+
+Abrir Pasta > crair arquivo > para adicionar o favicon > na parte head > em cima de title > link >
+escolher favicon > ctrl+backspace > escolher seu ico
+
+___________________________________________________________________________________________
+
+AULA 14
+
+HIERARQUIA DE TITULOS
+
+tipos de titulos 
+-principal
+-assuntos(secundarios);
+
+- Um bom titulo e fique a vontade para criar os "h" ex
+h1, h2, h3, h4 ...
+
+- para texto dentro do titulo de informação pode-se utilizar o <p>lorem </p>
+cria um texto para teste apar depois um texto real.
+
+______________________________________________________________________________________________
+
+AULA 15
+
+SEMÂNTICA NA HTML5
+
+- semantica é significado/ sentido das palavras ;
+- hmtl4 não tem semantica fica tudo cagado
+
+- para coloccar cor no seu site use 
+
+style> body> abrir conchetes > backgroundcolor
+
+w3c - use ela para olhar quais os termos que cairam em desuso por conta da evolução p/ HTML5
+ex: bgcolor agora background
+marquee
+
+________________________________________________________________________________________________
+
+Aula
+
+MIDIAS COMO UM TODO
+
+- Multipla imagem de tela pois temos celular, notebook, tv etc...
+- Não pode gerar imagens grandes porque pesa o site
+- Multiplas imagems para varios tamanhos de tela
+- 300p300p celular 700p700p tabalet 1000p1000p notebook
+- Comando picture > img > source:media:type > mudar dentro min para max-width
+- colocar suas foto do maior para o menor / ordem decresente
+- Taxa de rejeição faz seu site ser deixado para tras 
+

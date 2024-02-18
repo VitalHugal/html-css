@@ -1,0 +1,31 @@
+AULA 1 
+
+CSS - INLINE
+
+- body > style > background 
+- h1 > style> color
+- feito na mesma linha que o css
+- usar somente para uma coisa pontual
+
+_______________________________________________________________________________________________
+
+AULA 2
+
+ESTILOS CSS INTERNOS
+
+- head > style
+- Você abrindo um seletor para body, h1, h2 e etc deixa seu código mais rápido.
+- crtl+c / crtl+v para todas as páginas 
+
+________________________________________________________________________________________________
+
+AULA 3
+
+ESTILOS CSS EXTERNOS
+
+- link:css >
+- criar arquivo ctrl+click
+- arquivo css
+- @charset "UTF-8";
+- nas outras páginas coloco link:css e todas as telas ficam com o mesmo estilo
+
